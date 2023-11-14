@@ -5,20 +5,20 @@ a simple custom hook to check when the user click outside an specified component
 Install it from npm with your favorite package manager!
 
 ```bash
-npm install react-dropzone
+npm install use-awesome-click-outside
 ```
 or:
 ```bash
-yarn add react-dropzone
+yarn add use-awesome-click-outside
 ```
 or:
 ```bash
-pnpm install react-dropzone
+pnpm install use-awesome-click-outside
 ```
 
 ## usage
 ```ts
-   import { useClickOutside } from 'use-click-outside-hook';
+   import { useClickOutside } from 'use-awesome-click-outside';
 
    export const Component = () => {
    // pass the type of the HTML you will use here!
