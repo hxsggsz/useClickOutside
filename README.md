@@ -22,7 +22,7 @@ pnpm install use-awesome-click-outside
 
    export const Component = () => {
    // pass the type of the HTML you will use here!
-   const ref = useClickOutside<HTMLDivElement>((ev) => console.log('clicked outside!', ev));
+   const ref = useClickOutside<HTMLDivElement>(() => console.log('clicked outside!'));
    return (
     <div ref={ref}>
       <h1>Hello World! 🫡</h1>
